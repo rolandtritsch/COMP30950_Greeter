@@ -7,5 +7,5 @@ lazy val root = project
   .settings(
     name := "initialProject",
     scalaVersion := scala3Version,
-    libraryDependencies += "scalatest-funsuite" % "3.2.16" % "test"
+    libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.16" % "test"
   )

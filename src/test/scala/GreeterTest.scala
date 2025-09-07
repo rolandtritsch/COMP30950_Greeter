@@ -1,4 +1,3 @@
-
 import org.scalatest.funsuite.AnyFunSuite
 
 class GreeterSuite extends AnyFunSuite {
@@ -10,7 +9,7 @@ class GreeterSuite extends AnyFunSuite {
 
   test("bye returns correct string") {
     val greeter = Greeter("Aoife")
-    val hiMsg = greeter.bye
-    assert(hiMsg === "bye Aoife")
+    val byeMsg = greeter.bye
+    assert(byeMsg === "bye Aoife")
   }
 }
